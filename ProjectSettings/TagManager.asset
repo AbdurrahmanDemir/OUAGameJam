@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Enemy
   - Garbage
+  - first
+  - second
+  - third
   layers:
   - Default
   - TransparentFX

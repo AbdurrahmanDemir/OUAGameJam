@@ -3636,16 +3636,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      GUI_1x_sliced_90: 1885395125
       GUI_1x_sliced_21: -879525241
       GUI_1x_sliced_94: -1315673938
       GUI_1x_sliced_18: 792647000
       GUI_1x_sliced_100: 2005993160
-      GUI_1x_sliced_159: 372702744
       GUI_1x_sliced_11: -878275136
       GUI_1x_sliced_15: 514835559
       GUI_1x_sliced_101: 1286595069
       GUI_1x_sliced_149: 83400389
-      GUI_1x_sliced_165: -837114466
       GUI_1x_sliced_27: -1747651941
       GUI_1x_sliced_145: 479278663
       GUI_1x_sliced_46: 1164276278
@@ -3668,14 +3667,14 @@ TextureImporter:
       GUI_1x_sliced_102: -1879218368
       GUI_1x_sliced_31: 1930794826
       GUI_1x_sliced_81: 68595714
+      GUI_1x_sliced_142: 1320634211
+      GUI_1x_sliced_153: 2139534693
+      GUI_1x_sliced_22: -617131093
       GUI_1x_sliced_136: 1884894762
       GUI_1x_sliced_10: 2084594410
-      GUI_1x_sliced_22: -617131093
-      GUI_1x_sliced_143: 1460817466
       GUI_1x_sliced_62: -629242567
-      GUI_1x_sliced_142: 1320634211
+      GUI_1x_sliced_143: 1460817466
       GUI_1x_sliced_91: -813191132
-      GUI_1x_sliced_153: 2139534693
       GUI_1x_sliced_36: 144970669
       GUI_1x_sliced_76: -907850828
       GUI_1x_sliced_7: 576776872
@@ -3787,19 +3786,20 @@ TextureImporter:
       GUI_1x_sliced_155: 1769759343
       GUI_1x_sliced_157: -528599105
       GUI_1x_sliced_92: -1638416434
+      GUI_1x_sliced_165: -837114466
       GUI_1x_sliced_69: 1237863189
       GUI_1x_sliced_26: 1850230665
-      GUI_1x_sliced_80: -696165109
       GUI_1x_sliced_57: 2024452230
+      GUI_1x_sliced_80: -696165109
       GUI_1x_sliced_1: -778726261
       GUI_1x_sliced_82: -1053451560
       GUI_1x_sliced_3: 1929435601
       GUI_1x_sliced_47: -1787957543
       GUI_1x_sliced_45: -110962218
-      GUI_1x_sliced_90: 1885395125
-      GUI_1x_sliced_106: 51817045
-      GUI_1x_sliced_150: 377498133
       GUI_1x_sliced_114: 960906381
+      GUI_1x_sliced_159: 372702744
+      GUI_1x_sliced_150: 377498133
+      GUI_1x_sliced_106: 51817045
       GUI_1x_sliced_95: 391131024
       GUI_1x_sliced_48: -380673023
   spritePackingTag: 
