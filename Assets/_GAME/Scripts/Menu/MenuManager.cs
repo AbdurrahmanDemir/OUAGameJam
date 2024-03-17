@@ -18,7 +18,6 @@ public class MenuManager : MonoBehaviour
     public Image WaterStars;
     private void Start()
     {
-        startPanel.SetActive(true);
         if (!PlayerPrefs.HasKey("SeaGame"))
         {
             SeaStars.sprite = nullStarImage;
@@ -49,9 +48,9 @@ public class MenuManager : MonoBehaviour
 
 
     }
-    public void StartButton()
+    public void DeleteData()
     {
-        startPanel.SetActive(false);
+        PlayerPrefs.DeleteAll();
     }
 
     public void SeaGameLoad()

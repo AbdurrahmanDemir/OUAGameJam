@@ -64,5 +64,6 @@ public class move : MonoBehaviour
     public void MenuButton()
     {
         SceneManager.LoadScene("Menu");
+        PlayerPrefs.SetInt("WaterGame", 1);
     }
 }

@@ -39,7 +39,7 @@ public class ScoreManager : MonoBehaviour
         score += points; 
         scoreText.text = score.ToString();
 
-        if(score >= 5)
+        if(score >= 3)
         {
             EndGame();
         }
