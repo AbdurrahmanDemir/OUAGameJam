@@ -43,6 +43,20 @@ public class PlayerRunController : MonoBehaviour
         
        
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "finishLine")
+        {
+            if (PlayerPrefs.GetInt("SeaGame") == 1&&PlayerPrefs.GetInt("RecycleGame") == 1&& PlayerPrefs.GetInt("WaterGame") == 1)
+            {
+                Debug.Log("oyun bitti");
+            }
+            else
+            {
+                Debug.Log("oyun bitmedi");
+            }
+        }
+    }
 
     private void OnTriggerStay2D(Collider2D collision)
     {

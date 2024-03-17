@@ -33,6 +33,7 @@ public class WaterGameManager : MonoBehaviour
         if (garbage == 5)
         {
             overPanel.SetActive(true);
+            PlayerPrefs.SetInt("SeaGame", 1);
         }
     }
     public void MenuButton()

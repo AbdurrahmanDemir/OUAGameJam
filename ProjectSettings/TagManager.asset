@@ -9,6 +9,12 @@ TagManager:
   - first
   - second
   - third
+  - Metal
+  - Cam
+  - Plastik
+  - "Ka\u011F\u0131t"
+  - "Yasakl\u0131"
+  - finishLine
   layers:
   - Default
   - TransparentFX
