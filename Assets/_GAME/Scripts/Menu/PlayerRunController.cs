@@ -49,11 +49,11 @@ public class PlayerRunController : MonoBehaviour
         {
             if (PlayerPrefs.GetInt("SeaGame") == 1&&PlayerPrefs.GetInt("RecycleGame") == 1&& PlayerPrefs.GetInt("WaterGame") == 1)
             {
-                Debug.Log("oyun bitti");
+                gamePanels[3].gameObject.SetActive(true);
             }
             else
             {
-                Debug.Log("oyun bitmedi");
+                gamePanels[3].gameObject.SetActive(true);
             }
         }
     }
@@ -92,6 +92,10 @@ public class PlayerRunController : MonoBehaviour
         {
             gamePanels[2].gameObject.SetActive(false);
             cam.orthographicSize = 5;
+        }
+        if (collision.gameObject.tag == "finishLine")
+        {
+            gamePanels[3].gameObject.SetActive(false);
         }
     }
 }

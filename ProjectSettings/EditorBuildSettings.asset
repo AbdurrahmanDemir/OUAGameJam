@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_GAMEOnat/Scenes/RecycleGame.unity
     guid: de975fa863fd6644a9ec077927dc94cf
+  - enabled: 1
+    path: Assets/_GAMEABDU/Scenes/WaterGame.unity
+    guid: 9639be96e8ae18e4b98dc99b7e936854
   m_configObjects: {}

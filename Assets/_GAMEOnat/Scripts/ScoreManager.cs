@@ -42,13 +42,12 @@ public class ScoreManager : MonoBehaviour
         if(score >= 5)
         {
             EndGame();
-        } 
+        }
 
     }
 
     private void EndGame()
     {
-        Time.timeScale = 0f;
         winPanel.gameObject.SetActive(true);
         PlayerPrefs.SetInt("RecycleGame", 1);
     }

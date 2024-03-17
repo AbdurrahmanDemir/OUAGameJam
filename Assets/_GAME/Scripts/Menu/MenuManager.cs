@@ -10,6 +10,8 @@ public class MenuManager : MonoBehaviour
     [SerializeField] private GameObject startPanel;
     [SerializeField] private Sprite nullStarImage;
     [SerializeField] private Sprite StarImage;
+    [SerializeField] private SpriteRenderer[] gameSprite;
+    [SerializeField] private Sprite[] gameCompletedSprite;
     [Header("Star")]
     public Image SeaStars;
     public Image RecycleStars;
@@ -24,6 +26,7 @@ public class MenuManager : MonoBehaviour
         else
         {
             SeaStars.sprite= StarImage;
+            gameSprite[0].sprite = gameCompletedSprite[0];
         }
         if (!PlayerPrefs.HasKey("RecycleGame"))
         {
@@ -32,6 +35,7 @@ public class MenuManager : MonoBehaviour
         else
         {
             RecycleStars.sprite = StarImage;
+            gameSprite[1].sprite = gameCompletedSprite[1];
         }
         if (!PlayerPrefs.HasKey("WaterGame"))
         {
@@ -40,6 +44,7 @@ public class MenuManager : MonoBehaviour
         else
         {
             WaterStars.sprite = StarImage;
+            gameSprite[2].sprite = gameCompletedSprite[2];
         }
 
 

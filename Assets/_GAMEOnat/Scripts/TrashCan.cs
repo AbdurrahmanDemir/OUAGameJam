@@ -16,6 +16,7 @@ public class TrashCan : MonoBehaviour
     public AudioSource wrongSound;
     [SerializeField] public Image correctPanel;
     [SerializeField] public Image wrongPanel;
+    public GameObject spaceImage;
     private void start()
     {
         correctSound = GetComponent<AudioSource>();
@@ -42,6 +43,12 @@ public class TrashCan : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) && Time.time - lastSpacePressTime >= spacePressDelay)
         {
+            if (spaceImage!=null)
+            {
+                spaceImage.SetActive(false);
+            }
+                
+
             if (equalityDetected)
             {
                 correctSound.Play();
