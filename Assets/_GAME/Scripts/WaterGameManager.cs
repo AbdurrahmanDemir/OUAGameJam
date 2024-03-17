@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class WaterGameManager : MonoBehaviour
 {
     public static WaterGameManager instance;
     public Slider slider;
+    public GameObject overPanel;
 
     int garbage;
 
@@ -30,7 +32,11 @@ public class WaterGameManager : MonoBehaviour
 
         if (garbage == 5)
         {
-            Debug.Log("oyun bitti");
+            overPanel.SetActive(true);
         }
+    }
+    public void MenuButton()
+    {
+        SceneManager.LoadScene("Menu");
     }
 }
